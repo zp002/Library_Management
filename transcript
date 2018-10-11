@@ -1,0 +1,140 @@
+Script started on Tue 14 Nov 2017 10:33:40 AM EST
+[bash xmeng@brki164-lnx-1 solution]$ python testdb.py
+Welcome to my classic literature database
+Choose an operation to perform :
+0. Quit the program (q/Q)
+1. Search books by author name (a/A)
+2. Search author and books by book title (t/T)
+3. Add an author and her books (u/U)
+4. Remove an author and her books (r/R)
+Type the appropriate letter for an opertion : 1
+Enter author's last name : Austgen
+Enter author's first name : Jane
+Not found
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q)
+1. Search books by author name (a/A)
+2. Search author and books by book title (t/T)
+3. Add an author and her books (u/U)
+4. Remove an author and her books (r/R)
+Type the appropriate letter for an opertion : 1
+Enter author's last name : Austen
+Enter author's first name : Jane
+Austen, Jane
+|Emma|Mansfield Park|Persuasion|Pride and Prejudice
+
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q) 
+1. Search books by author name (a/A) 
+2. Search author and books by book title (t/T) 
+3. Add an author and her books (u/U) 
+4. Remove an author and her books (r/R) 
+Type the appropriate letter for an opertion : 2
+Enter a book title : Emma
+Austen, Jane
+|Emma|Mansfield Park|Persuasion|Pride and Prejudice
+
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q) 
+1. Search books by author name (a/A) 
+2. Search author and books by book title (t/T) 
+3. Add an author and her books (u/U) 
+4. Remove an author and her books (r/R)
+Type the appropriate letter for an opertion : 3
+Enter author's last name : Hemingway
+Enter author's first name : Ernest
+Enter a book title, 'none' to stop : the old man and sea
+Enter a book title, 'none' to stop : none
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q) 
+1. Search books by author name (a/A) 
+2. Search author and books by book title (t/T) 
+3. Add an author and her books (u/U) 
+4. Remove an author and her books (r/R) 
+Type the appropriate letter for an opertion : Hemingway
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q) 
+1. Search books by author name (a/A) 
+2. Search author and books by book title (t/T) 
+3. Add an author and her books (u/U) 
+4. Remove an author and her books (r/R) 
+Type the appropriate letter for an opertion : 1
+Enter author's last name : Hemingway
+Enter author's first name : Ernest
+Hemingway, Ernest
+|the old man and sea
+
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q) 
+1. Search books by author name (a/A) 
+2. Search author and books by book title (t/T) 
+3. Add an author and her books (u/U) 
+4. Remove an author and her books (r/R) 
+Type the appropriate letter for an opertion : 2
+Enter a book title : the old man and sea
+Hemingway, Ernest
+|the old man and sea
+
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q) 
+1. Search books by author name (a/A) 
+2. Search author and books by book title (t/T) 
+3. Add an author and her books (u/U) 
+4. Remove an author and her books (r/R) 
+Type the appropriate letter for an opertion : 2
+Enter a book title : Emma
+Austen, Jane
+|Emma|Mansfield Park|Persuasion|Pride and Prejudice
+
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q) 
+1. Search books by author name (a/A) 
+2. Search author and books by book title (t/T) 
+3. Add an author and her books (u/U) 
+4. Remove an author and her books (r/R) 
+Type the appropriate letter for an opertion : 4
+Enter author's last name : Austen
+Enter author's first name : Jane
+record with [ Austen Jane ] removed.
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q) 
+1. Search books by author name (a/A) 
+2. Search author and books by book title (t/T) 
+3. Add an author and her books (u/U) 
+4. Remove an author and her books (r/R) 
+Type the appropriate letter for an opertion : 1
+Enter author's last name : Austen
+Enter author's first name : Jane
+Not found
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q) 
+1. Search books by author name (a/A) 
+2. Search author and books by book title (t/T) 
+3. Add an author and her books (u/U) 
+4. Remove an author and her books (r/R) 
+Type the appropriate letter for an opertion : 2
+Enter a book title : Emma
+Not found
+Welcome to my classic literature database
+Choose an operation to perform : 
+0. Quit the program (q/Q) 
+1. Search books by author name (a/A) 
+2. Search author and books by book title (t/T) 
+3. Add an author and her books (u/U) 
+4. Remove an author and her books (r/R) 
+Type the appropriate letter for an opertion : 0
+Thank you for using my program.
+[bash xmeng@brki164-lnx-1 solution]$ exit
+exit
+
+Script done on Tue 14 Nov 2017 10:38:53 AM EST
